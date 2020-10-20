@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -29,6 +30,23 @@ namespace TravelVision_Flights_API.Controllers
             List<Airport> airports = JsonConvert.DeserializeObject<List<Airport>>(content);
 
             return airports;
+        }
+
+        public async Task<IEnumerable<Flight>> GetFlightAvailability()
+        {
+            List<Flight> flight = new List<Flight>();
+            HttpResponseMessage httpResponse = await _client.GetAsync("");
+
+            if (!httpResponse.IsSuccessStatusCode)
+            {
+                throw new Exception("Unable to retrieve Airports!");
+            }
+
+            string content = await httpResponse.Content.ReadAsStringAsync().ConfigureAwait(false);
+            List<Journey> journies = JsonConvert.DeserializeObject<List<Journey>>(content);
+
+
+            return flight;
         }
     }
 }

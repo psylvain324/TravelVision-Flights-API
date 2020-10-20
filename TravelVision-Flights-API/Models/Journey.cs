@@ -3,8 +3,6 @@ namespace TravelVision_Flights_API.Models
 {
     public class Journey
     {
-        public Journey()
-        {
-        }
+        public int Id { get; set; }
     }
 }

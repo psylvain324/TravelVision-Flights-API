@@ -1,17 +1,34 @@
 ﻿<Properties StartupConfiguration="{CE141267-ED01-438A-9700-07B9316F28B0}|Default">
   <MonoDevelop.Ide.ItemProperties.TravelVision-Flights-API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TravelVision-Flights-API/Models/Trip.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravelVision-Flights-API/Interfaces/IRepository.cs">
     <Files>
-      <File FileName="TravelVision-Flights-API/Models/Trip.cs" Line="1" Column="1" />
+      <File FileName="TravelVision-Flights-API/Startup.cs" Line="42" Column="36" />
+      <File FileName="TravelVision-Flights-API/Controllers/FlightsController.cs" Line="48" Column="1" />
+      <File FileName="TravelVision-Flights-API/Filters/ApiKeyAuthAttribute.cs" Line="22" Column="68" />
+      <File FileName="TravelVision-Flights-API/Controllers/WeatherController.cs" Line="7" Column="16" />
+      <File FileName="TravelVision-Flights-API/Interfaces/IWeatherService.cs" Line="1" Column="1" />
+      <File FileName="TravelVision-Flights-API/Interfaces/ICountryService.cs" Line="1" Column="1" />
+      <File FileName="TravelVision-Flights-API/Services/WeatherService.cs" Line="10" Column="1" />
+      <File FileName="TravelVision-Flights-API/Services/CountryService.cs" Line="7" Column="6" />
+      <File FileName="TravelVision-Flights-API/Program.cs" Line="24" Column="45" />
+      <File FileName="TravelVision-Flights-API/Repositories/BookingRepository.cs" Line="93" Column="28" />
+      <File FileName="TravelVision-Flights-API/Models/Country.cs" Line="1" Column="1" />
+      <File FileName="TravelVision-Flights-API/Interfaces/IRepository.cs" Line="12" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TravelVision-Flights-API" expanded="True">
             <Node name="TravelVision-Flights-API" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Trip.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Filters" expanded="True" />
+              <Node name="Interfaces" expanded="True">
+                <Node name="IRepository.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -1,15 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using TravelVision_Flights_API.Controllers;
+using TravelVision_Flights_API.Data;
+using TravelVision_Flights_API.Interfaces;
+using TravelVision_Flights_API.Services;
 
 namespace TravelVision_Flights_API
 {
@@ -25,7 +25,33 @@ namespace TravelVision_Flights_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen();
+            services.AddDbContext<DatabaseContext>(options => options.UseInMemoryDatabase(databaseName: "TravelVisionFlightsDb"));
+
+            services.TryAddTransient(s =>
+            {
+                return s.GetRequiredService<IHttpClientFactory>().CreateClient(string.Empty);
+            });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                  "CorsPolicy",
+                  builder => builder.WithOrigins("https://localhost:4200")
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowAnyOrigin());
+            });
+
             services.AddControllers();
+            services.AddMvc();
+            services.AddResponseCaching();
+
+            services.AddTransient<IWeatherService, WeatherService>();
+            services.AddTransient<ICountryService, CountryService>();
+            services.AddHttpClient<BookingController>();
+            services.AddHttpClient<FlightsController>();
+            services.AddHttpClient<WeatherController>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,16 +62,22 @@ namespace TravelVision_Flights_API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Travel Vision - Flights");
+            });
 
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+            app.UseResponseCaching();
         }
     }
 }

@@ -38,6 +38,7 @@
 /Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.genruntimeconfig.cache
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Properties/airports.json
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/TravelVision-Flights-API.deps.json
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/TravelVision-Flights-API.runtimeconfig.json
@@ -48,6 +49,7 @@
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.InMemory.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
@@ -59,13 +61,18 @@
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/NetTopologySuite.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.AssemblyInfoInputs.cache
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.AssemblyInfo.cs
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.csproj.CoreCompileInputs.cache
+/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.MvcApplicationPartsAssemblyInfo.cs
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.MvcApplicationPartsAssemblyInfo.cache
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.RazorTargetAssemblyInfo.cache
 /Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/Debug/netcoreapp3.1/TravelVision-Flights-API.csproj.CopyComplete

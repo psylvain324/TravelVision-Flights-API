@@ -10,8 +10,9 @@ namespace TravelVision_Flights_API.Data
         {
         }
 
-        public virtual DbSet<Airport> Airports { get; set; }
-        public virtual DbSet<Booking> Bookings { get; set; }
+        public DbSet<Airport> Airports { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Country> Countries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

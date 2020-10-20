@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7u3kf6DLKzuoREkY+zS6lrWU2FK9e8QGQYRWSzNi94j/s4Am4B0uWFe3o7dQjRiwu3YsQ4iLn2lpAb5kjGnuXQ==",
+  "dgSpecHash": "aFugylzeBPmrjthcdcLM+oTL/ZL5FQXT+VNreUDf5nKlorI2JA6BEnpNaFnvPgn54kuvqPsYpTy/o9358Y9UTw==",
   "success": true,
   "projectFilePath": "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/Phil/.nuget/packages/microsoft.entityframeworkcore/3.1.9/microsoft.entityframeworkcore.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.entityframeworkcore.abstractions/3.1.9/microsoft.entityframeworkcore.abstractions.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.9/microsoft.entityframeworkcore.analyzers.3.1.9.nupkg.sha512",
+    "/Users/Phil/.nuget/packages/microsoft.entityframeworkcore.inmemory/3.1.9/microsoft.entityframeworkcore.inmemory.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.9/microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.extensions.caching.memory/3.1.9/microsoft.extensions.caching.memory.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.extensions.configuration/3.1.9/microsoft.extensions.configuration.3.1.9.nupkg.sha512",
@@ -20,8 +21,12 @@
     "/Users/Phil/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.9/microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.extensions.options/3.1.9/microsoft.extensions.options.3.1.9.nupkg.sha512",
     "/Users/Phil/.nuget/packages/microsoft.extensions.primitives/3.1.9/microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "/Users/Phil/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/Phil/.nuget/packages/nettopologysuite/2.1.0/nettopologysuite.2.1.0.nupkg.sha512",
     "/Users/Phil/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/Phil/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/Phil/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/Phil/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/Phil/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/Users/Phil/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/Phil/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
