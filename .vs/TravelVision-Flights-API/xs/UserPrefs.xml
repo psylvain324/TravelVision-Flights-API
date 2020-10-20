@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{CE141267-ED01-438A-9700-07B9316F28B0}|Default">
+  <MonoDevelop.Ide.ItemProperties.TravelVision-Flights-API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravelVision-Flights-API/Models/Trip.cs">
+    <Files>
+      <File FileName="TravelVision-Flights-API/Models/Trip.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TravelVision-Flights-API" expanded="True">
+            <Node name="TravelVision-Flights-API" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Trip.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

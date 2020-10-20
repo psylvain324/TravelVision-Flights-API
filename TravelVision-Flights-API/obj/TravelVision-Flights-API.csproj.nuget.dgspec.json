@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {}
+    "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {}
   },
   "projects": {
-    "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {
+    "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
+        "projectUniqueName": "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
         "projectName": "TravelVision-Flights-API",
-        "projectPath": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
+        "projectPath": "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
         "packagesPath": "/Users/Phil/.nuget/packages/",
-        "outputPath": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/",
+        "outputPath": "/Users/Phil/Desktop/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
