@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {}
+  },
+  "projects": {
+    "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
+        "projectName": "TravelVision-Flights-API",
+        "projectPath": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/TravelVision-Flights-API.csproj",
+        "packagesPath": "/Users/Phil/.nuget/packages/",
+        "outputPath": "/Users/Phil/Projects/TravelVision-Flights-API/TravelVision-Flights-API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Phil/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NetTopologySuite": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
