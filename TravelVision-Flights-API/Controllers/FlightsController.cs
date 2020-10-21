@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -69,8 +68,7 @@ namespace TravelVision_Flights_API.Controllers
             }
 
             string content = await httpResponse.Content.ReadAsStringAsync().ConfigureAwait(false);
-            List<Journey> journies = JsonConvert.DeserializeObject<List<Journey>>(content);
-
+            //List<Journey> journies = JsonConvert.DeserializeObject<List<Journey>>(content);
 
             return flight;
         }
