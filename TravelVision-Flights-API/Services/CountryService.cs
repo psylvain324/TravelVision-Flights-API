@@ -10,6 +10,7 @@ namespace TravelVision_Flights_API.Services
     {
         private const string countriesUrl = "https://travelbriefing.org/countries.json";
         private const string countrySearchBase = "https://travelbriefing.org/Netherlands?format=json";
+        private const string countryFlagsBase = "https://www.countryflags.io/:country_code/:style/:size.png";
 
         public CountryService()
         {
@@ -20,5 +21,6 @@ namespace TravelVision_Flights_API.Services
         {
             throw new NotImplementedException();
         }
+
     }
 }
